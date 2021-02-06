@@ -3,7 +3,7 @@ certifi==2020.12.5
 chardet==4.0.0
 idna==2.10
 # numpy==1.20.0
-pandas==1.2.1
+pandas==1.2
 pycodestyle==2.6.0
 pyTelegramBotAPI==3.7.6
 python-dateutil==2.8.1
