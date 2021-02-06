@@ -52,6 +52,8 @@ def save_photos(message):
             continue
         [save_image(image, path_image, index)
          for index, image in enumerate(images)]
+
+        print('success', index)
     import shutil
     shutil.make_archive('Images', 'zip', 'Images')
 
