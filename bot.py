@@ -50,6 +50,7 @@ def save_photos(message):
             os.mkdir(path_image)
         except:
             continue
+
         [save_image(image, path_image, index)
          for index, image in enumerate(images)]
 
